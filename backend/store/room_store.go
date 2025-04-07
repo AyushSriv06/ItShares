@@ -2,7 +2,7 @@ package store
 
 import (
 	"errors"
-	"github.com/AyushSriv06/ItShares/backend/types"
+	"github.com/AyushSriv06/ItShares/types"
 	"github.com/google/uuid"
 	"sync"
 )
