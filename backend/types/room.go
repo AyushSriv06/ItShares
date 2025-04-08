@@ -62,7 +62,7 @@ func (r *Room) GetUserById(id uuid.UUID) (*User, error) {
 	if !ok {
 		return nil, ErrorUserNotFound
 	}
-
+	
 	return user, nil
 }
 
